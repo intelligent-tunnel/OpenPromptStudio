@@ -192,6 +192,14 @@
             height: 52px;
         }
     }
+    .image-container {
+        display: flex;
+    }
+
+    .image-box {
+        flex: 1;
+    }
+
 }
 </style>
 <script>
