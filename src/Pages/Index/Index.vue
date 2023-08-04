@@ -1,10 +1,7 @@
 <template>
     <div class="IndexPage">
         <nav>
-            <a class="logo" href="https://github.com/Moonvy/OpenPromptStudio"><b>OPS</b>/OpenPromptStudio</a>
-            <a class="icon-link" href="https://github.com/Moonvy/OpenPromptStudio" target="_blank">
-                <Icon icon="radix-icons:github-logo"
-            /></a>
+             <a class="logo" href="www.heipig.com"><b>黑皮哥</b> AIGC导航网站</a>
 
             <div class="dict-button-box" @click="toggleDictPad()">
                 提示词词典
@@ -26,10 +23,10 @@
             <PromptDict />
         </section>
         <footer>
-            <a href="https://github.com/Moonvy/OpenPromptStudio" target="_blank">
-                <img class="icon" src="/icon.svg" /> OpenPromptStudio / v{{ version }} /
+            <a href="www.heipig.com" target="_blank">
+                <img class="icon" src="/icon.svg" /> >>> 免费AIGC导航网站 / www.heipig.com
             </a>
-            <a href="https://moonvy.com/?homepage"> made by <img src="./assets/logo_full_cn.svg" /></a>
+           
         </footer>
     </div>
 </template>

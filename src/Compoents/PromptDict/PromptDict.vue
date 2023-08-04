@@ -13,14 +13,6 @@
             </button>
 
             <div class="notion-config">
-                <div class="help">
-                    <Icon icon="ant-design:question-circle-outlined" />
-                    <a
-                        target="_blank"
-                        href="https://github.com/Moonvy/OpenPromptStudio#2-%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84-noiton-%E9%9B%86%E6%88%90%E6%8F%92%E4%BB%B6integrations"
-                        >使用方法</a
-                    >
-                </div>
                 <div class="line checkbox">
                     <label for="enableNotion">启用我的 Notion</label>
                     <input id="enableNotion" v-model="enableMyNotion" type="checkbox" />

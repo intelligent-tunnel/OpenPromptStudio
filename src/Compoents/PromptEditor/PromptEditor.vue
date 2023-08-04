@@ -141,8 +141,11 @@
         </div>
 
         <!--    在使用 indexfs.moonvy.com 的翻译服务时显示广告，尝试给腾讯翻译的服务费回血    -->
-        <div v-if="needShowAd" class="回血-box" v-tooltip="'广告商提供的内容，与本网站（Moonvy 月维）无关'">
-            <a href="https://nf.video/yinhe/web?sharedId=124758" target="_blank"> <img src="./Assets/ad.png" /> </a>
+        <div v-if="needShowAd" class="回血-box" v-tooltip="'黑皮AI助手，可免费 ChatGPT4.0'">
+            <a href="https://www.zhisuiai.com/web/#/" target="_blank"> <img src="./Assets/ad.png" /> </a>
+        </div>
+        <div v-if="needShowAd" class="回血-box" v-tooltip="'黑皮AIGC工具站，2000+全品类AI工具与资讯'">
+            <a href="https://www.heipig.com/" target="_blank"> <img src="./Assets/ad01.png" /> </a>
         </div>
     </div>
 </template>
