@@ -22,11 +22,13 @@
             </div>
             <PromptDict />
         </section>
-        <footer>
+        <div>
             <a href="https://heipig.com" target="_blank">
                 <img class="icon" src="/icon.svg" /> >>> 免费AIGC导航网站 / www.heipig.com
             </a>
-            
+        </div>
+
+        <footer>
             <a href="https://github.com/Moonvy/OpenPromptStudio" target="_blank">
                 <img class="icon" src="/icon.svg" /> OpenPromptStudio / v{{ version }} /
             </a>
