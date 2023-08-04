@@ -143,10 +143,10 @@
         <!--    在使用 indexfs.moonvy.com 的翻译服务时显示广告，尝试给腾讯翻译的服务费回血    -->
         
         <div class="image-container">
-            <div v-if="needShowAd" class="回血-box" v-tooltip="'爆款文案创作，视频脚本，全新Chat4.0，点击体验'">
+            <div v-if="needShowAd" class="image-box" v-tooltip="'爆款文案创作，视频脚本，全新Chat4.0，点击体验'">
                 <a href="https://www.zhisuiai.com/web/#/" target="_blank"> <img src="./Assets/ad.png" /> </a>
             </div>
-            <div v-if="needShowAd" class="回血-box" v-tooltip="'2000+AIGC导航资讯工具站，全品类创作工具'">
+            <div v-if="needShowAd" class="image-box" v-tooltip="'2000+AIGC导航资讯工具站，全品类创作工具'">
                 <a href="https://www.heipig.com/" target="_blank"> <img src="./Assets/ad01.png" /> </a>
             </div>
         </div>
