@@ -1,7 +1,7 @@
 <template>
     <div class="IndexPage">
         <nav>
-             <a class="logo" href="https://heipig.com"><b>黑皮哥</b> | AIGC导航网站</a>
+             <a class="logo" href="https://heipig.com"><b>黑皮哥 </b> | AIGC导航资讯网站</a>
 
             <div class="dict-button-box" @click="toggleDictPad()">
                 提示词词典
